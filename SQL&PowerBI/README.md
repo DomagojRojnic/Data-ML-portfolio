@@ -27,4 +27,4 @@ This project analyses historical dataset on modern Olympic games, from 1896 to 2
 ### PowerBI
 `olympics.pbix` provides a report created in PowerBI
 
-![PowerBI_report](./report.png)
+![PowerBI_report](../screenshots/report.png)
