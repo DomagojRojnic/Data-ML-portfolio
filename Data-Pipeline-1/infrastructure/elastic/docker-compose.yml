@@ -14,10 +14,6 @@ volumes:
   logstashdata01:
     driver: local
 
-networks:
-  default:
-    name: elastic
-    external: false
 
 services:
   setup:
@@ -86,7 +82,7 @@ services:
       - certs:/usr/share/elasticsearch/config/certs
       - esdata01:/usr/share/elasticsearch/data
     ports:
-      - ${ES_PORT}:9200
+      - ${ELASTIC_PORT}:9200
     environment:
       - node.name=es01
       - cluster.name=${CLUSTER_NAME}
@@ -150,3 +146,8 @@ services:
       interval: 10s
       timeout: 10s
       retries: 120
+
+networks:
+  default:
+    name: elastic
+    external: false
