@@ -19,5 +19,5 @@ export POSTGRES_HOST_INT='postgres-db'
 export POSTGRES_USER=''
 export POSTGRES_PASSWORD=''
 export POSTGRES_PORT=5432
-export POSTGRES_DB_NAME='postgres'
+export POSTGRES_DB_NAME=''
 export POSTGRES_VOLUME='/var/postgres_data'
