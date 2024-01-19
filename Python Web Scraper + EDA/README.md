@@ -1,0 +1,1 @@
+This is a web scraping project of Indeed job postings using `Selenium` and `beautifulsoup`. The collected data is preprocessed on which exploratory data analysis has been conducted.
