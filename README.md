@@ -6,3 +6,4 @@ A collection of data science and machine learning projects to demonstrate skills
 * **Machine Learning models** - implementation of most commonly used machine learning models with some algorithms implemented from scratch
 * **ETL Pipeline** - data pipeline which aggregates data stored in Elastisearch and saves it to Postgres database, using Airflow and Python
 * **PythonWebScraping + EDA** - Web scraping of Indeed job postings using Selenium and beautifulsoup, with data processing and exploritory data analysis
+* **SMS Spam Classification** - classification project using NLTK and multiple scikit-learn models

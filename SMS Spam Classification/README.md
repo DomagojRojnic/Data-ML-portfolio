@@ -1,0 +1,1 @@
+SMS Spam Classification project using `NLTK`. Various models have been tested and grouped into a voting classifier.
